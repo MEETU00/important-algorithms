@@ -1,0 +1,11 @@
+subjects = ('Python', 'Interview', 'Questions')
+for i, subject in enumerate(subjects):
+print(i, subject)
+
+
+
+Output:
+
+0 Python
+1 Interview
+2 Questions
