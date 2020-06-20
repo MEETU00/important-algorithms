@@ -8,8 +8,6 @@ if n>1:
         print("number is prime")
 
                     
-
-
 Output:
 
 Enter number: 7
