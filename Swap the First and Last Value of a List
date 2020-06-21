@@ -1,0 +1,21 @@
+a=[]
+n= int(input("Enter the number of elements in list:"))
+for x in range(0,n):
+element=int(input("Enter element" + str(x+1) + ":"))
+a.append(element)
+temp=a[0]
+a[0]=a[n-1]
+a[n-1]=temp
+print("New list is:")
+print(a)
+
+
+Output:
+
+Enter the number of elements in list:4
+Enter element1:23
+Enter element2:45
+Enter element3:67
+Enter element4:89
+New list is:
+[89, 45, 67, 23]
