@@ -1,14 +1,18 @@
-n=int(input("Enter any number: "))
-a=list(map(int,str(n)))
-b=list(map(lambda x:x**3,a))
-if(sum(b)==n):
-print("The number is an armstrong number. ")
-else:
-print("The number isn't an arsmtrong number. ")
-
-
-
+n=int(input("Enter any number: "))                                            n=int(input("enter no:"))
+a=list(map(int,str(n)))                                                       sum=0
+b=list(map(lambda x:x**3,a))                                                  a=n
+if(sum(b)==n):                                                                while(n>0):
+print("The number is an armstrong number. ")                                     dig=n%10
+else:                                                                            sum=sum+dig*dig*dig
+print("The number isn't an arsmtrong number. ")                                  n=n//10
+                                                                              if(a==sum):
+                                                                               print("is armstrong")
+                                                                            else:
+                                                                               print("not armstrong")    
 Output:
 
 Enter any number: 371
 The number is an armstrong number.
+                                                                            
+                                                                          
+                                                                           
