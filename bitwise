@@ -1,0 +1,2 @@
+x<<2
+ans:The binary form of 1 is 0001. The expression x<<2 implies we are performing bitwise left shift on x. This shift yields the value: 0100, which is the binary form of the number 4.
