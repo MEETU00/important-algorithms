@@ -1,0 +1,6 @@
+X=”san-foundry”
+print(“%56s”,X)
+
+
+Explanation: The formatting option print(“%Ns”,X) helps us add ‘N’ number of spaces before a given string ‘X’. 
+Hence the output for the code snippet shown above will be 56 blank spaces before the string “san-foundry”.
