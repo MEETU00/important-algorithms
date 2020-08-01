@@ -3,7 +3,7 @@ a=list(map(int,str(n)))                                                       su
 b=list(map(lambda x:x**3,a))                                                  a=n
 if(sum(b)==n):                                                                while(n>0):
 print("The number is an armstrong number. ")                                     dig=n%10 ('.'this gives the last no.)
-else:                                                                            sum=sum+dig*dig*dig
+else:                                                                            sum=sum+dig**n
 print("The number isn't an arsmtrong number. ")                                  n=n//10 ('.' eliminate last digit)
                                                                               if(a==sum):
                                                                                print("is armstrong")
