@@ -2,9 +2,9 @@ n=int(input("Enter any number: "))                                            n=
 a=list(map(int,str(n)))                                                       sum=0
 b=list(map(lambda x:x**3,a))                                                  a=n
 if(sum(b)==n):                                                                while(n>0):
-print("The number is an armstrong number. ")                                     dig=n%10
+print("The number is an armstrong number. ")                                     dig=n%10 ('.'this gives the last no.)
 else:                                                                            sum=sum+dig*dig*dig
-print("The number isn't an arsmtrong number. ")                                  n=n//10
+print("The number isn't an arsmtrong number. ")                                  n=n//10 ('.' eliminate last digit)
                                                                               if(a==sum):
                                                                                print("is armstrong")
                                                                             else:
