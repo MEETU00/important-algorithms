@@ -1,7 +1,0 @@
-a) x = 0b101
-b) x = 0x4f5
-c) x = 19023
-d) x = 03964
-
-Answer: d
-Explanation: Numbers starting with a 0 are octal numbers but 9 isn’t allowed in octal numbers.
